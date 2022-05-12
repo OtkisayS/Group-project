@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    &>header {
+        background-color: #fff;
+        height: 120px;
+    }
+}
+
+.main {
+    background-color: #fff;
+    &>.nav {
+        background-color: #0A223D;
+        height: 80px;
+    }
+}
