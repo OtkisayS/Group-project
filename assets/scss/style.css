@@ -8,6 +8,15 @@ body {
   height: 120px;
 }
 
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .main {
   background-color: #fff;
 }
@@ -15,5 +24,18 @@ body {
 .main > .nav {
   background-color: #0A223D;
   height: 80px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1110px;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.profile-img {
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */

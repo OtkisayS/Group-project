@@ -9,11 +9,24 @@ body {
         height: 120px;
     }
 }
-
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
 .main {
     background-color: #fff;
     &>.nav {
         background-color: #0A223D;
         height: 80px;
     }
+}
+.container {
+    margin: auto;
+    max-width: 1110px;
+}
+.header {
+    background-color: #fff;
+}
+.profile-img {
+    border-radius: 50%;
 }
