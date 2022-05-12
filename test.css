@@ -1,0 +1,14 @@
+.faw {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: solid 5px white ;
+    
+}
+.faw ul li {
+    list-style: none;
+}
+.far {
+    letter-spacing: 0.8em;
+    padding: 10px 0 5px 0;
+}
